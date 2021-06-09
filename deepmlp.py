@@ -6,8 +6,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.optimizers import Adam
 
-TRAIN_DATA_PATH = "/train.csv"
-TEST_DATA_PATH = "/test.csv"
+TRAIN_DATA_PATH = "C:\Users\coco1\Desktop\AI시스템설계\train.csv"
+TEST_DATA_PATH = "C:\Users\coco1\Desktop\AI시스템설계\test.csv"
 
 X_train = np.array(raw_train_data.drop("label", axis=1)).astype(float)
 y_train = np.array(raw_train_data["label"])

@@ -5,8 +5,8 @@ import os
 
 from sklearn import datasets,svm,metrics
 
-mnist_train = pd.read_csv("/content/train.csv") # train csv 파일 불러오기
-mnist_test = pd.read_csv("/content/test.csv") # test csv 파일 불러오기
+mnist_train = pd.read_csv("C:\Users\coco1\Desktop\AI시스템설계\train.csv") # train csv 파일 불러오기
+mnist_test = pd.read_csv("C:\Users\coco1\Desktop\AI시스템설계\test.csv") # test csv 파일 불러오기
 
 train = mnist_train.values
 test = mnist_test.values
